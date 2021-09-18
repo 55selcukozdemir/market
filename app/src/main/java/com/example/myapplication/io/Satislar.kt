@@ -33,6 +33,8 @@ class Satislar : Fragment() {
             Product("domates",15f,R.drawable.stokdurumu),
             Product("patlıcan",15f,R.drawable.urunekle),
             Product("hıyar",15f,R.drawable.satis)
+
+
         )
 
         adapter = CustomGridAdapter(productlist, context)
