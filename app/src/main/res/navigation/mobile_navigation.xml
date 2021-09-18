@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/satislar">
+    app:startDestination="@id/ana_satis">
 
     <fragment
         android:id="@+id/ana_satis"
-        android:name="com.example.myapplication.io.AnaSatis"
+        android:name="com.example.myapplication.fragment.AnaSatis"
         android:label="@string/ana_satis"
         tools:layout="@layout/fragment_ana_satis" />
     <fragment
         android:id="@+id/urun_ekle_guncelle"
-        android:name="com.example.myapplication.io.UrunEkleGuncelle"
+        android:name="com.example.myapplication.fragment.UrunEkleGuncelle"
         android:label="@string/urun_ekle_guncelle"
         tools:layout="@layout/fragment_urun_ekle_guncelle" />
     <fragment
         android:id="@+id/satislar"
-        android:name="com.example.myapplication.io.Satislar"
+        android:name="com.example.myapplication.fragment.Satislar"
         android:label="@string/satislar"
         tools:layout="@layout/fragment_satislar" />
     <fragment
         android:id="@+id/stok_durumu"
-        android:name="com.example.myapplication.io.StokDurumu"
+        android:name="com.example.myapplication.fragment.StokDurumu"
         android:label="@string/stok_durumu"
         tools:layout="@layout/fragment_stok_durumu" />
 
