@@ -26,13 +26,6 @@ class HizliSatisActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarHizliSatis.toolbar)
 
-        binding.appBarHizliSatis.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show()
-
-
-        }
-
-
 
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView

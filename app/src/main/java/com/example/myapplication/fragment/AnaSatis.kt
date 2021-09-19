@@ -42,8 +42,9 @@ class AnaSatis : Fragment(){
             Product("hıyar",15f,R.drawable.satis)
         )
 
-        adapter = CustomGridAdapter(productlist,context)
+
         var gridView = view.findViewById<GridView>(R.id.ana_satis_fragment_grid_view)
+        adapter = CustomGridAdapter(productlist,context)
         gridView.adapter = adapter
         return view
 

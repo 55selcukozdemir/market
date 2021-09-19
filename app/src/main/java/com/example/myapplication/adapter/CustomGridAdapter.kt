@@ -13,8 +13,7 @@ import com.example.myapplication.R
 class CustomGridAdapter: BaseAdapter {
 
     var productList = ArrayList<Product>()
-    var contex: Context? = null
-
+        var contex: Context? = null
 
     constructor(productList: ArrayList<Product>, contex: Context?) : super() {
         this.productList = productList
